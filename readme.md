@@ -40,5 +40,6 @@ Error: Invalid login: 535-5.7.8 Username and Password not accepted.
 3. Internet connection.
 
 For point 2 active setting security in this link : [https://myaccount.google.com/security](https://myaccount.google.com/security)
+![alt text](https://github.com/triabagus/nodejs-sendEmail/blob/master/images/google-security.png)
 # Author
 &copy; [triabagus](https://github.com/triabagus/)
