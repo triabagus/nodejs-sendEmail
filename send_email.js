@@ -13,8 +13,13 @@ var mailOptions = {
     to: 'triatop9@gmail.com',
     // to: 'triatop9@gmail.com , email@gmail.com', (multiuser)
     subject: 'Trial sendding email with node JS',
-    text: 'Success sending email'
-    // html:'' (send mail html file)
+    // text: 'Success sending email' (send text default)
+    // html:'<h1>Success</h1><p>This is my file</p>' (send mail html file)
+    html: '<h1>Success</h1><p>This is my file</p>',
+    attachments: [{
+        filename: 'newtext.txt',
+        content: 'Hello World'
+    }]
 };
 
 transporter.sendMail(mailOptions, (err, info) => {
