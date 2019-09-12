@@ -10,7 +10,9 @@
 # Structure Directory
 ```
 nodejs-sendEmail/
+├── images/
 ├── node_modules/
+├── attachment_example.js
 ├── send_email.js
 └── contact_form.html
 ```
