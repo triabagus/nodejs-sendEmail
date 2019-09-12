@@ -12,9 +12,10 @@
 nodejs-sendEmail/
 ├── images/
 ├── node_modules/
+├── app_contact.js
 ├── attachment_example.js
-├── send_email.js
-└── contact_form.html
+├── contact_form.html
+└── send_email.js
 ```
 
 # Install Module 
