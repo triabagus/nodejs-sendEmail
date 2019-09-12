@@ -43,8 +43,8 @@ http.createServer((req, res) => {
             let transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'suasanarez123@gmail.com',
-                    pass: 'guesttria12345'
+                    user: 'youremail@gmail.com',
+                    pass: 'passwordemail'
                 }
             });
 
